@@ -11,7 +11,7 @@ while [ $x -le $n_archivos ]
 do
   archivo=$(awk NR==$x nombres.txt)
   nombre="${archivo%.*}"
-  ffmpeg -loglevel warning -i $1$archivo -pr_metrics true $nombre.lhe 2>Metricas$1/metricas$nombre.txt
+  ffmpeg -loglevel panic -i $1$archivo -pr_metrics true $nombre.lhe 2>Metricas$1/metricas$nombre.txt
   let x=x+1
 done
 rm nombres.txt
