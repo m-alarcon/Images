@@ -1,2 +1,0 @@
-[bmp_pipe @ 0x2659200] Stream #0: not enough frames to estimate rate; consider increasing probesize
-File 'imagen_resultado_codificacion.lhe' already exists. Overwrite ? [y/N] Not overwriting - exiting
