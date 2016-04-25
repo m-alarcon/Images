@@ -1,0 +1,5 @@
+Para obtener las metricas con el script metricas.sh utilizar el comando
+./metricas directorio/ donde "directorio" es la carpeta donde estan las
+imagenes que quieres obtener las métricas. Puede ser una ruta completa o
+empezando en el directorio en el que te encuentras. La barra del final del
+directorio es obligatoria.
